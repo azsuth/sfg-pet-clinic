@@ -31,7 +31,7 @@ public class DataLoader implements CommandLineRunner {
     public void run(String... args) {
         if (petTypeService.findAll().size() == 0) {
             loadData();
-        }   
+        }
     }
 
     private void loadData() {
